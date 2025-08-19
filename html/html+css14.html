@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0px;
+        margin: 0px;
+        }
+        .main{
+            border:2px solid red;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        .fc{
+            border: 2px solid red;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            
+        }
+        .fc:hover{
+            border: 2px solid lightyellow;
+            background-color: lightgreen;
+        }
+        body{
+background-image:url("https://tse3.mm.bing.net/th/id/OIP.kUUmY3W5qC70GpCVCZlweQHaEK?pid=Api&P=0&h=220") ;
+background-repeat:no-repeat ;
+background-size: cover;
+
+        }
+        input{
+background: transparent;
+color: white;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+
+        }
+        label{
+            color: wheat;
+        }
+        .fc label{
+            color: wheat;
+        }
+        .fc a {
+            color: white;
+        }
+        .fc a:hover {
+            text-decoration: underline;
+        }
+        button{
+            background-color: rgb(111, 182, 6);
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+<div class="fc"></div>
+        <form>
+<h1>Registration Form</h1>
+<label for="un">Username</label>
+<input type="text" id="un" name="nm">
+<br><br>
+
+<label for="e">Email</label>
+<input type="text"id="e" name="mail">
+<br><br>
+
+<label for="pw">Password</label>
+<input type="text"id="ew" name="pass">
+<br><br>
+
+<label for="">Remember Me</label>
+<input type="checkbox" id="rememberMe" name="rememberMe">
+<br><br>
+
+
+<button type="SUBMIT">SUBMIT</button>
+<div class="options">
+    <a href="#">Forgot Password</a>
+    <br><br>
+    Don't have an acccount?<a href="#">Register</a>
+</div>
+        </form>
+    </div>
+    
+</body>
+</html>

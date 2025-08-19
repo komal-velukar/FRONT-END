@@ -1,0 +1,29 @@
+h1{
+
+    color:white ;
+    
+
+    font-family: cursive;
+   
+}
+h1,h2,h3{
+text-align: center;
+    background-color: blue;
+     font-size: 70px;
+}
+
+#id1{
+color: black;
+}
+#id2{
+background-color: gray;
+color: orange;
+
+}
+.cls2{
+background-color: aquamarine;
+}
+.cls3{
+    color: blueviolet;
+    background-color: lightblue;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> </title>
+  <style>
+
+    .button-primary {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+
+    }
+    .button-primary:hover {
+      background-color: gray;
+    }
+
+    
+    p .highlight {
+      background-color: orange;
+    }
+   p  .highlight:hover {
+      text-decoration: dashed;
+    }
+
+    
+    .text-bold-uppercase {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .text-bold-uppercase::first-letter {
+      color: red;
+    }
+
+    
+    .rounded-image {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .rounded-image:hover {
+      transform: scale(1.1);
+    }
+   .input-placeholder::placeholder{
+    color:orangered;
+    font-style: italic;
+   }
+
+
+  </style>
+</head>
+<body>
+
+  <h2>1. java</h2>
+  <button class="button-primary">Click Me</button>
+
+  <h2>2. spring </h2>
+  <p>This is some <span class="highlight">highlighted text</span> inside a paragraph.</p>
+
+  <h2>3. Spring Boot</h2>
+  <p class="text-bold-uppercase">hello everyone ..!</p>
+
+  <h2>4. Rounded Image</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIZnmnbithi17iZ6xjTlIuZWlJtF9BXGyEQ&s"  alt="Sample" class="rounded-image">
+
+    
+Email : <input type ="text" class="input-placeholder" placeholder="Enter correct Email">
+
+ 
+</body>
+</html>
