@@ -43,7 +43,7 @@
     }
 
     .logo {
-      font-size: 28px;
+      font-size: 60px;
       font-weight: bold;
       color: #fff;
       letter-spacing: 2px;
@@ -161,11 +161,11 @@
 
     /* Carousel */
     .carousel-inner img {
-      height: 100vh; /* full screen height */
-      width: 100%;
-      object-fit: cover; /* make images clear & fit */
-      filter: brightness(85%);
-      transition: transform 6s ease;
+      height: 60vh; /* full screen height */
+      width: 50%;
+     /* make images clear & fit */
+      filter: brightness(100%);
+      transition: transform 3s ease;
     }
 
     .carousel-item.active img {
@@ -222,14 +222,78 @@
   <nav>
     <div class="logo">EventHub</div>
 
-    <ul>
-      <li><a href="#">Movies</a></li>
-      <li><a href="#">Shows</a></li>
-      <li><a href="#">Concerts</a></li>
-      <li><a href="#">Sports</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Merchandise</a></li>
-    </ul>
+
+  <ul>
+    <!-- Movies -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Movies</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Hollywood</a></li>
+        <li><a class="dropdown-item" href="#">Bollywood</a></li>
+        <li><a class="dropdown-item" href="#">Animated</a></li>
+      </ul>
+    </li>
+
+    <!-- Shows -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Shows</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Drama</a></li>
+        <li><a class="dropdown-item" href="#">Comedy</a></li>
+        <li><a class="dropdown-item" href="#">Musicals</a></li>
+      </ul>
+    </li>
+
+    <!-- Concerts -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Concerts</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Rock</a></li>
+        <li><a class="dropdown-item" href="#">Pop</a></li>
+        <li><a class="dropdown-item" href="#">Classical</a></li>
+      </ul>
+    </li>
+
+    <!-- Sports -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Sports</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Football</a></li>
+        <li><a class="dropdown-item" href="#">Cricket</a></li>
+        <li><a class="dropdown-item" href="#">Tennis</a></li>
+      </ul>
+    </li>
+
+    <!-- Events -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Festivals</a></li>
+        <li><a class="dropdown-item" href="#">Workshops</a></li>
+        <li><a class="dropdown-item" href="#">Exhibitions</a></li>
+      </ul>
+    </li>
+
+    <!-- Merchandise -->
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Merchandise</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+        <li><a class="dropdown-item" href="#">Caps</a></li>
+        <li><a class="dropdown-item" href="#">Accessories</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search events, shows...">
+    <i class="bi bi-search"></i>
+  </div>
+
+  <div class="cart">
+    <a href="#"><i class="bi bi-cart"></i></a>
+  </div>
+</nav>
 
     <div class="search-container">
       <input type="text" placeholder="Search events, shows...">
